@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblescale",
+  "version": "${version}",
+  "name": "CobbleScale",
+  "description": "Template mod for PokeSkies",
+  "authors": [
+    "AmoAster",
+    "Stampede"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.pokeskies.cobblescale.CobbleScale"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1"
+  },
+  "mixins": ["cobblescale.mixins.json"],
+  "accessWidener": "cobblescale.accesswidener"
+}

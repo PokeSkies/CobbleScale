@@ -1,0 +1,23 @@
+{
+  "debug": false,
+  "enabled": true,
+  "level_offset": {
+    "min": -2,
+    "max": 2
+  },
+  "min_level": 5,
+  "max_level": 100,
+  "scale_mode": "MEDIAN",
+  "blacklisted_pokemon": ["cobblemon:zigzagoon"],
+  "blacklisted_biomes": [
+    "minecraft:mushroom_fields"
+  ],
+  "blacklisted_dimensions": [
+    "minecraft:the_nether"
+  ],
+  "biome_scaling": {
+    "minecraft:snowy_taiga": 1.25,
+    "minecraft:desert": 1.1
+  },
+  "enabled_dimensions": []
+}
