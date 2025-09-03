@@ -57,6 +57,7 @@ object SpawnManager {
                 Utils.printDebug("After clamping to the min and max levels, we are now spawning at level $newLevel")
 
                 event.entity.pokemon.level = newLevel
+                event.entity.pokemon.initialize()
             }
         }
     }
