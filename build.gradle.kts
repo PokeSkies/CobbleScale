@@ -80,7 +80,7 @@ dependencies {
     modImplementation("me.lucko:fabric-permissions-api:0.3.1")
 
     // Cobblemon
-    modImplementation("com.cobblemon:fabric:1.7.0+1.21.1-main-488f38c")
+    modImplementation("com.cobblemon:fabric:1.7.0+1.21.1")
 
     modImplementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 }
